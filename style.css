@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Nanum+Pen+Script&display=swap");
+body {
+  margin: 0;
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.img1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .timeDate {
+  display: block;
+  color: rgb(255, 0, 255);
+  font-size: 80px;
+  text-shadow: 0 0 42px rgb(234, 0, 255), 0 0 82px rgb(234, 0, 255), 0 0 92px rgb(255, 0, 234), 0 0 102px rgb(234, 0, 255), 0 0 151px rgb(234, 0, 255); /* purple glow */
+  opacity: 0.55;
+  transition: 1s;
+}
+main .timeDate .time {
+  margin-left: 40px;
+}
+main .memo {
+  color: greenyellow;
+  font-size: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

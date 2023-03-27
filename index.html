@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <video class="img1" src="images/background.mp4" autoplay muted loop></video>
+    <main>
+      <div class="timeDate">
+        <div
+          class="time animate__animated animate__bounce animate__i1nfinite i1nfinite"
+        >
+          time
+        </div>
+        <div class="date">date</div>
+      </div>
+
+      <div class="memo"></div>
+      <input class="memoInput" type="text" />
+      <button class="memoButton" onclick="memoAdd()">메모 추가</button>
+
+      <input class="memoDeleteNum" type="number" />
+      <button class="memoDelete" onclick="memosub()">메모 삭제</button>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
